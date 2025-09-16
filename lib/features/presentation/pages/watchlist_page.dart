@@ -4,9 +4,9 @@ import 'package:flutter_bloc/flutter_bloc.dart'
 import 'package:watchlist_project/core/utils/constants.dart';
 import 'package:watchlist_project/features/data/datasource/mock_watchlist_data.dart';
 import 'package:watchlist_project/features/domain/usecase/new_watchlist.dart';
-import 'package:watchlist_project/features/presentation/bloc/watchlist_bloc.dart';
-import 'package:watchlist_project/features/presentation/bloc/watchlist_event.dart';
-import 'package:watchlist_project/features/presentation/bloc/watchlist_state.dart';
+import 'package:watchlist_project/features/presentation/bloc/watchlist/watchlist_bloc.dart';
+import 'package:watchlist_project/features/presentation/bloc/watchlist/watchlist_event.dart';
+import 'package:watchlist_project/features/presentation/bloc/watchlist/watchlist_state.dart';
 import 'package:watchlist_project/features/presentation/pages/search_page.dart';
 import 'package:watchlist_project/features/presentation/pages/watchlist_detail.dart';
 import 'package:watchlist_project/features/repository_impl/watchlist_repository.impl.dart';
